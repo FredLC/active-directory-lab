@@ -18,8 +18,8 @@ Project architecture: <br/>
 <img src="https://i.imgur.com/YuNdDhq.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Basic VM info:  <br/>
+<img src="https://i.imgur.com/pQ4MB49.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
 Enter the number of passes: <br/>
