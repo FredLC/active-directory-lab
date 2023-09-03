@@ -197,26 +197,56 @@ Click yes to activate the scope:  <br/>
 Click finish to complete the new scope:  <br/>
 <img src="https://i.imgur.com/g8SDJyY.png" height="80%" width="80%" alt="finish scope"/>
 </p>
-:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
-</p>
 
-<h3>Time to install Windows 10! The client VM configuration is the same as the Windows Server machine. The only difference is that there is one network interface on the internal network, no public interface.</h3>
+<h3>Time to install Windows 10! The client VM configuration is the same as the Windows Server machine. The only difference is that there is one network interface on the internal network, no public interface. The installation is also the same up until the final configurations.</h3>
 
-Click next for WINS servers:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
+After the Windows 10 files have been installed, time for some user configurations:  <br/>
+<img src="https://i.imgur.com/oveVydd.png" height="80%" width="80%" alt="select region"/>
 </p>
-Click next for WINS servers:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
+Select appropriate keyboard layout:  <br/>
+<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="keyboard layout"/>
 </p>
-Click next for WINS servers:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
+Click skip for secondary keyboard layout:  <br/>
+<img src="https://i.imgur.com/HNCzAWE.png" height="80%" width="80%" alt="secondary keyboard layout"/>
 </p>
-Click next for WINS servers:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
+Select I don't have internet:  <br/>
+<img src="https://i.imgur.com/2sqfpyl.png" height="80%" width="80%" alt="no internet"/>
 </p>
-Click next for WINS servers:  <br/>
-<img src="https://i.imgur.com/iuVa9JB.png" height="80%" width="80%" alt="wins servers"/>
+Click continue with limited setup:  <br/>
+<img src="https://i.imgur.com/V3U6r7r.png" height="80%" width="80%" alt="limited setup"/>
+</p>
+Enter any user name, it doesn't matter for now:  <br/>
+<img src="https://i.imgur.com/Zl9mfJQ.png" height="80%" width="80%" alt="username"/>
+</p>
+No need to enter a password:  <br/>
+<img src="https://i.imgur.com/Or9I9wh.png" height="80%" width="80%" alt="password"/>
+</p>
+Uncheck all privacy settings:  <br/>
+<img src="https://i.imgur.com/BmR0A7A.png" height="80%" width="80%" alt="uncheck privacy settings"/>
+</p>
+Click not now on Cortana screen:  <br/>
+<img src="https://i.imgur.com/TjgMrgX.png" height="80%" width="80%" alt="cortana screen"/>
+</p>
+While Windows 10 is installing, I'm running a PowerShell script to create a thousand users:  <br/>
+<img src="https://i.imgur.com/wmGvFaZ.png" height="80%" width="80%" alt="powershell script execution"/>
+</p>
+After Windows 10 has finished installed, I'll check the connectivity:  <br/>
+<img src="https://i.imgur.com/yHXLvhm.png" height="80%" width="80%" alt="check connectivity"/>
+</p>
+I joined the client to the domain and renamed the PC at the same time:  <br/>
+<img src="https://i.imgur.com/oFC8OPK.png" height="80%" width="80%" alt="join domain"/>
+</p>
+Checking DHCP leases to see if everything works:  <br/>
+<img src="https://i.imgur.com/8r24Jvl.png" height="80%" width="80%" alt="DHCP leases"/>
+</p>
+Checking if client computer has successfully joined the domain:  <br/>
+<img src="https://i.imgur.com/JnmEVwJ.png" height="80%" width="80%" alt="checking computers"/>
+</p>
+Finally, I'll test to see if I can sign in with any of the newly created users:  <br/>
+<img src="https://i.imgur.com/9eJ8ArO.png" height="80%" width="80%" alt="testing sign in"/>
+</p>
+<br/>
+<img src="https://i.imgur.com/UMnER1R.png" height="80%" width="80%" alt="whoami"/>
 </p>
 <!--
  ```diff
