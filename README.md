@@ -253,8 +253,10 @@ Click finish to complete the new scope:  <br/>
 </p>
 
 <h3>Time to install Windows 10! The client VM configuration is the same as the Windows Server machine. The only difference is that there is one network interface on the internal network, no public interface. The installation is also the same up until the final configurations.</h3>
+<br />
+<br />
 
-<p>
+<p align="center">
 After the Windows 10 files have been installed, time for some user configurations:  <br/>
 <img src="https://i.imgur.com/oveVydd.png" height="80%" width="80%" alt="select region"/>
 <br />
